@@ -45,7 +45,7 @@ void main() {
 		if (x==0){									//Checks to see if ball missed the paddle
 			for(k = 0; k<12; k++) {
 				for(j = 0; j<12; j++) {
-					drawBlock(j,k);					//This is the game over screen
+					drawLine(j,k);					//This is the game over screen
 					}
 				 }
 			while(button_press == FALSE) {
