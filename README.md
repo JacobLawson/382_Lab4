@@ -29,3 +29,9 @@ For A functionality, the B functionality was kept, and a drawLine function was a
 
 #Bonus Functionality
 The only bonus functionality i did was turn the block into a ball. This was done by getting rid of the loop to draw the block, and just defining how many pixels b=per column would be drawn. There was probably a better way to do it, but this way worked.
+
+#Debugging
+The main problem I ran across in this code was remembering to declare my functions and keep the variables consistent in all of the declarations. This was just fixed by constantly compiling the file and correcting errors as I saw them. ANother problem that cam up was for the Required Functionality. The Color variable initially was stored in R14, but other times it would get stored in R7 depending on the hour of the day and orientation of the planets. If my program did not work, I would just toggle R14 to R7 and thigns ended up being okay.
+
+#Documentation
+C2C Thompson ran into the same problem I did involving registers R14 and R7 and we kind of both figured out together how to get them to work. C2C Thompson also gave me the idea of using a for loop for the game over screen. I decided to draw lines andf he ended up doing this neat checkerboard pattern. He also helped me with figuring out a way to do detection cases for if the ball hit the line for A Funct.
