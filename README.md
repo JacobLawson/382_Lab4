@@ -7,7 +7,11 @@ The objectives of this lab included making an etch a sketch program, a program t
 For the Prelab, we ended up just filling out a bunch of tables and answered some questions. They can be seen below
 
 ![alt text](http://i57.tinypic.com/3451r10.png)
+
+
 ![alt text](http://i58.tinypic.com/ok0rq9.png)
+
+
 ![alt text](http://i59.tinypic.com/206d9c5.png)
 
 ###What is the role of the extern directive in a .c file?
